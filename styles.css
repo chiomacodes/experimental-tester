@@ -1,0 +1,48 @@
+h1, h2, {
+font-size: x-large;
+font-weight: 200;
+font-family: Verdana;
+}
+
+.header {
+text-align: center;
+text-decoration: underline;
+text-decoration-color: seagreen;
+font-family: Verdana;
+background-color: pink;
+}
+
+.container {
+::before
+display: flex;
+background-color: lavender;
+padding: 20px;
+border: solid 10px;
+border-color: grey;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+line-height: normal;
+::after
+}
+
+
+.ahead {
+:hover
+display: flex;
+padding: 20px;
+background-color: lavenderblush;
+padding: 20px;
+border: solid 10px;
+border-color: indigo;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.highlight {
+background-color: chartreuse;
+font-weight: 50px;
+:hover
+}
+
+.footer {
+background-color: cornflowerblue;
+font-weight:900
+}
